@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+ body {
+  background: linear-gradient(236.85deg, #041832 27.26%, orange 96.03%);
+  font-family: 'Ubuntu', sans-serif;
+  margin: auto;
+  
+}
+
+.perfil-foto {
+    border-radius: 460px;
+    max-height: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.container {
+    background: #ECF4FF;
+    color: #1C1C1C;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    padding: 64px;
+}   
+
+
+#title, #subtitle, .post_title {
+    color: rgb(25, 25, 81)   
+}
+
+#subtitle {
+    text-align: center;
+}
+
+.post {
+    background: #FFF;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px dotted #0E1D2F;
+    margin: 80px;
+}
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.flex {
+    max-width: 200px;
+    padding: 10px;
+    border: 2px solid orange;
+    display: flex;
+}
+
+.item {
+    background-color: antiquewhite;
+    margin: 5px;
+    display: flex;
+}
+
+#group1 {
+    list-style-type: "\1F37B";
+    text-decoration: none;
+    color: #041832;
+}
+
+#group1 a {
+    color: #041832;
+    font-weight: bold;    
+}
+
+#group2 {
+    list-style-type: "\1F3AE";
+    color: #041832;
+}
+
+#group2 a {
+    color: #041832;
+    font-weight: bold;
+}
+
+.lists_contact {
+    list-style-type: none;
+}
+
+.lists_contact li a {
+    text-decoration: none;
+    color: #041832;
+    font-weight: bold;
+}
